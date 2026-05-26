@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+header {
+      background-color: #2c3e50;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h1 {
+      color: #ecf0f1;
+      font-size: 1.8rem;
+      font-weight: 400;
+      letter-spacing: 1px;
+}
+main {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+footer {
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #f8f9fa !important;
+    margin-top: auto;
+}
+.copyright {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.product-title {
+	margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+}
+.memberCheck {
+	color: #ecf0f1;
+	text-align:right;
+	padding-right: 40px;
+}
