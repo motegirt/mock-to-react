@@ -57,3 +57,17 @@ main {
 .btn-cart i {
     margin-right: 8px;
 }
+
+.size-area {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.size-notation {
+    display: inline-block;
+    width:40px;
+    font-size:20px;
+    padding:10px;
+    text-align: center;
+}

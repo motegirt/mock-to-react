@@ -47,3 +47,7 @@ footer {
 	text-align:right;
 	padding-right: 40px;
 }
+
+#main-area {
+    max-width: 1080px;
+}
