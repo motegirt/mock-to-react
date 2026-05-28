@@ -1,21 +1,22 @@
 @charset "UTF-8";
-main {
-    margin-top: 1.5rem !important;
-    margin-bottom: 1.5rem !important;
+form {
+    padding:8px
 }
-.cart-message {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.form-text-label {
+    display: inline-block;
+    width: 96px;
 }
-.item-row {
-    display: flex;
+.form-row {
+    padding-top:8px;
 }
-.item-thumnail {
-    line-height: 1.6;
-    margin-right: 30px;
+.form-row > input {
+    margin-right:32px;
+}
+.form-row > select {
+    width: 180px;
 }
 
-.cart-to-placeorder {
+.order-confirm {
     display: inline-block;
     background-color: #27ae60;
     color: white;
@@ -31,7 +32,7 @@ main {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.continue-shopping {
+.back-to-cart {
     display: inline-block;
     background-color: gray;
     color: white;
@@ -46,17 +47,7 @@ main {
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-.cart-button-area{
-    padding:10px 10px;
-}
-.product-total-price {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.items-area {
-    max-width: 700px;
+.form-phone-number > input {
+    margin-right:8px;
+    width: 120px;
 }

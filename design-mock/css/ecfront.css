@@ -6,6 +6,8 @@ body {
 }
 main {
     flex: 1;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
 }
 a, a:hover, a:visited {
     text-decoration: none;
